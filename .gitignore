@@ -1,6 +1,7 @@
 *.class
 build/
 *.code-workspace
+*.vscode
 
 .project
 .settings
@@ -9,3 +10,4 @@ build/
 .gradle
 **/build/
 !src/**/build/
+.classpath
