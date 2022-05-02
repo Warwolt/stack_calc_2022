@@ -12,19 +12,12 @@ class Main {
             if (input.equals("quit")) {
                 break;
             }
-            Stack<String> expr = splitIntoStack(input);
-            int output = StackCalculator.evaluate(expr);
-            System.out.println(output);
+
+            // integrate the stack calculator here
+
+            System.out.println(input);
         }
 
         scanner.close();
-    }
-
-    static Stack<String> splitIntoStack(String str) {
-        Stack<String> stack = new Stack<>();
-        for (String word : str.trim().split(" ")) {
-            stack.push(word);
-        }
-        return stack;
     }
 }

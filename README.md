@@ -13,3 +13,16 @@ On Windows:
 ```
 ./gradlew.bat jar && java -jar build/libs/stack_calc.jar
 ```
+
+## Run tests
+On Linux and MacOS:
+
+```
+./gradlew test
+```
+
+On Windows:
+
+```
+./gradlew.bat test
+```
