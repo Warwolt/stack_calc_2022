@@ -22,7 +22,7 @@ class Main {
 
     static Stack<String> splitIntoStack(String str) {
         Stack<String> stack = new Stack<>();
-        for (String word : str.split(" ")) {
+        for (String word : str.trim().split(" ")) {
             stack.push(word);
         }
         return stack;
